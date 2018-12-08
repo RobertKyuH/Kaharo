@@ -1,0 +1,16 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+div[mxp-link]{
+    cursor: pointer;
+}
+.MusexPress-Posts-Template-Container .AccordionPanelTab, .MusexPress-Blog-NoContent .AccordionPanelTab{
+    visibility: hidden!important;
+}
+
+.MusexPress-Posts-Template-Container a[href=""],.single-post a[href=""] {
+  visibility: hidden;
+}

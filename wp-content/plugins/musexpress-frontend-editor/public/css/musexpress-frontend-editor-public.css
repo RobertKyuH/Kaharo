@@ -1,0 +1,175 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.ct-ignition__button{
+    top: 40px !important;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+[mxp-data-editable] ul {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+}
+[mxp-data-editable] ol {
+    list-style-type: decimal !important;
+    list-style-position: inside !important;
+}
+[mxp-data-editable] li {
+    list-style-type: initial !important;
+    list-style-position: inside !important;
+}
+[mxp-data-editable] ul ul, [mxp-data-editable] ol ul, [mxp-data-editable] ul li {
+    list-style-type: disc !important;
+    list-style-position: inside !important;
+    margin-left: 15px !important;
+}
+
+[mxp-data-editable] ol li {
+    list-style-type: decimal !important;
+    list-style-position: inside !important;
+    margin-left: 15px !important;
+}
+
+[mxp-data-editable] ol ol, [mxp-data-editable] ul ol, [mxp-data-editable] ul ul {
+    list-style-type: lower-latin !important;
+    list-style-position: inside !important;
+    margin-left: 15px !important;
+}
+
+[mxp-data-editable] .ce-element.ce-element--type-list-item-text {
+    display: inline;
+}
+
+.ct-widget.ct-ignition--busy .ct-ignition__button--busy {
+    transform-origin: center !important;
+}
+
+.ce-element--type-image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.mxp-wp-media-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease;
+}
+
+.mxp-frontend-editor-image:hover .mxp-wp-media-btn, .mxp-frontend-editor-video:hover .mxp-wp-media-btn{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.mxp-frontend-editor-image:hover .mxp-wp-media-btn::before, .mxp-frontend-editor-video:hover .mxp-wp-media-btn::before {
+    content: url(../images/media.png);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.mxp-wp-media-btn:hover{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.ct-widget .ct-ignition__button--edit {
+    background: transparent;
+    background-image: url(../images/edit.png);
+    background-size: contain;
+}
+
+.ct-widget .ct-ignition__button--edit:hover{
+    background: transparent;
+    background-image: url(../images/edit.png);
+    background-size: contain;
+    transform-origin: center center;
+    transform: rotate(20deg);
+}
+
+.ct-widget .ct-ignition__button--edit:before, .ct-widget .ct-ignition__button--confirm:before, .ct-widget .ct-ignition__button--cancel:before, .ct-widget .ct-ignition__button--busy:before{
+    content: none;
+}
+
+.ct-widget .ct-ignition__button--confirm {
+    background: transparent;
+    background-image: url(../images/check.png);
+    background-size: contain;
+}
+
+.ct-widget .ct-ignition__button--busy, .ct-widget .ct-ignition__button--busy:hover {
+    background: transparent;
+    background-image: url(../images/loading.png);
+    background-size: contain;
+}
+
+.ct-widget .ct-ignition__button--confirm:hover{
+    background: transparent;
+    background-image: url(../images/check.png);
+    background-size: contain;
+    opacity: 0.9;
+}
+
+.ct-widget .ct-ignition__button--cancel {
+    background: transparent;
+    background-image: url(../images/close.png);
+    background-size: contain;
+}
+
+.ct-widget .ct-ignition__button--cancel:hover{
+    background: transparent;
+    background-image: url(../images/close.png);
+    background-size: contain;
+    opacity: 0.9;
+}
+
+.ct-widget .ct-ignition__button{
+    opacity: 1.0;
+}
+
+.screen-reader-text{
+    display: none;
+}
+
+.attachment-filters{
+    -webkit-appearance: menulist;
+    -moz-appearance: initial;
+    appearance: initial;
+    width: 250px !important;
+}
+
+@media screen and (max-width: 960px) {
+    .ct-toolbox {
+        top: unset !important;
+        left: unset !important;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .ct-widget .ct-tool {
+        /*float: none !important;*/
+    }
+
+    .ct-grip{
+        display: none;
+    }
+
+    .ct-widget.ct-toolbox {
+        width: 100px;
+    }
+}

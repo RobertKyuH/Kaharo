@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'musexpress';
+    src:  url('../fonts/musexpress.eot?p1m3qb');
+    src:  url('../fonts/musexpress.eot?p1m3qb#iefix') format('embedded-opentype'),
+    url('../fonts/musexpress.ttf?p1m3qb') format('truetype'),
+    url('../fonts/musexpress.woff?p1m3qb') format('woff'),
+    url('../fonts/musexpress.svg?p1m3qb#musexpress') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'musexpress' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-musexpress:before {
+    content: "\e900";
+    color: #a0a5ab;
+}
+
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_text.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_ultralight.ttf') format('truetype');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_thin.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_text.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_medium.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_semibold.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_bold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+#adminmenu .wp-menu-image img {
+    width: 16px;
+}
+
+.mxp-card {
+    margin-bottom: 1rem;
+    border: 1px solid #f9f9f9;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: none;
+    overflow: hidden;
+    color: #333;
+    max-width: 350px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(51, 51, 51, 0.12), 0 1px 2px rgba(51, 51, 51, 0.24);
+    margin: auto;
+    margin-top: 30px;
+    transition: box-shadow .25s ease-out;
+}
+
+.mxp-card:hover{
+    box-shadow: 0 3px 5px rgba(51, 51, 51, 0.25), 0 3px 4px rgba(51, 51, 51, 0.22);
+}
+
+.mxp-card h6{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.mxp-card .mxp-button{
+    display: inline-block;
+    vertical-align: middle;
+    /* margin: 0 0 1rem 0; */
+    padding: 0.85em 1em;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    background-color: #0198e4;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.mxp-button:hover{
+    background-color: #0181c2;
+    color: #fff;
+}
+
+.mxp-button.hollow{
+    background-color: transparent;
+    border: 1px solid #0198e4;
+    color: #0198e4;
+}
+
+.mxp-button.hollow:hover{
+    background-color: #0181c2;
+    color: #fff;
+}
+
+.mxp-card img {
+    width: 100%;
+}
+.float-left{
+    float:left;
+}
+
+.float-right{
+    float: right;
+}
+
+.mxp-card-header {
+    padding: 1rem;
+    background: #fff;
+}
+
+.mxp-card-header::after,
+.mxp-card-block::after,
+.mxp-card-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mxp-card-block {
+    padding: 1.25rem;
+}
+
+.mxp_convert_all_btn{
+    background-color: transparent!important;
+    border: none!important;
+    line-height: 26px!important;
+    height: 26px!important;
+    color: rgba(240,245,250,.7)!important;
+}
+
+.mxp_convert_all_btn:hover{
+   color: #00b9eb!important;
+    cursor: pointer;
+}
+
+.mxp_convert_all_btn:disabled{
+    background-color: transparent!important;
+    border: none!important;
+    line-height: 26px!important;
+    height: 26px!important;
+    color: rgba(240,245,250,.2)!important;
+}
+.mxp_convert_all_btn:disabled:hover{
+    color: rgba(240,245,250,.2)!important;
+    cursor: initial;
+}
+.mxp-card-text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 100px;
+    overflow: hidden;
+}
+
+
+.mxp-converter-submit {
+    padding: 0 0 0 0;
+    margin: 15px 0;
+}
+
+
+
+.options-discussion-php .form-table:nth-of-type(2), .options-discussion-php .title:nth-of-type(1), .options-discussion-php form > p:nth-of-type(1) {
+    display: none;
+}
+
+.post-attributes-label-wrapper:nth-of-type(1n+2) {
+    display: none;
+}
+
+#pageparentdiv .inside select:nth-of-type(1n+2), #pageparentdiv .inside input {
+    display: none;
+}
+
+mark.yes{
+    background-color: transparent;
+    color: green;
+}
+mark.error{
+    background-color: transparent;
+    color: red;
+}
+
+mark.warning{
+    background-color: transparent;
+    color: #ceb500;
+}
+
+@media screen and (max-width: 780px) {
+    .mxp_column_card{
+        width: 95%!important;
+        flex: initial!important;
+    }
+}
+
+.mxp_column_card{
+    box-sizing: border-box;
+
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 200px;
+    -ms-flex: 1 1 200px;
+    flex: 1 1 200px;
+    margin: 0 1%;
+    width: 49.5%;
+}
+.mxp_column_section{
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.mxp_white_card{
+    background-color: #fff;
+    box-shadow: 0 0 1px rgba(0,0,0,.2);
+    padding: 20px;
+
+}
+
+.mxp_column_block_item{
+    display: flex;
+    border-top: 2px solid #f9f9f9;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 -20px;
+    padding: 20px;
+}
+
+.mxp_column_block_item_content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 200px;
+    -ms-flex: 1 1 200px;
+    flex: 1 1 200px;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 20%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.mxp_column_block_item_icon{
+    height: 100px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.mxp_column_block_item_content h2{
+    width: 100%;
+}
+.mxp_column_block_item_icon img{
+    max-height: 60px;
+    max-width: 60px;
+    position: relative;
+    top:50%;
+    left:50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.mxp_column_block_item_content p{
+    margin-top: 0.3em;
+    margin-right: 2em;
+}
+
+a.mxp_block_item_link {
+    color: black;
+    text-decoration: none;
+}
+ a.mxp_block_item_link:hover h2 {
+    color: #0198e4;
+    text-decoration: none;
+}
+
+ .mxp_small_card{
+     box-sizing: border-box;
+     box-shadow: 0 0 1px rgba(0,0,0,.2);
+     margin-bottom: 4%;
+     padding: 20px;
+     text-align: center;
+ }
+ .mxp_small_card p{
+     padding: 12px;
+ }
+
+ .mxp_small_card_primary{
+     background-color: #54687d;
+     color: white;
+ }
+.mxp_small_card_primary h2, .mxp_small_card_secondary h2{
+    color: white;
+}
+
+.mxp_small_card_primary a, .mxp_small_card_secondary a{
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+    text-decoration: none;
+    width: 124px;
+    margin: auto;
+}
+.mxp_small_card_primary a:hover{
+    background-color: #fff;
+     color: #54687d;
+ }
+.mxp_small_card_secondary{
+    background-color: #97568b;
+    color: white;
+}
+
+.mxp_small_card_secondary a:hover{
+    background-color: #fff;
+    color: #97568b;
+}
+
+.mxp_small_card_icon img {
+    width: 60px;
+}
+
+.mxp_logo{
+    max-width: 260px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+.mxp_header{
+    font-family: 'Myriad Set Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    margin-top: 4px;
+    color: rgb(150,150,150);
+}
+
+.mxp_header.subdescription{
+    font-size: 14px;
+}
+
+
+.musexpress_page_musexpress_settings select{
+    max-width: 230px;
+}
+
+.mxp .fas{
+    padding-right: 10px;
+}
+
+.wrap.mxp .form-table td {
+    padding-left: 0!important;
+}
+
+.wrap.mxp .subsubsub{
+    font-size: 16px!important;
+}
+
+#wp-admin-bar-musexpress_menu-default .fa, .fas {
+    font-weight: 900 !important;
+    font-family: Font Awesome\ 5 Free !important;
+    padding-right: 8px !important;
+}
+
+.fab{
+    padding-right: 8px!important;
+}
+
+.fa-lg{
+    font-size: 1.15em!important;
+}
+
+.mxp_wrap.notice-success i{
+    color: #46b450;
+}
+
+.mxp_wrap.notice-info i{
+    color: #00a0d2;
+}
+
+.mxp_wrap.notice-error i{
+    color: #dc3232;
+}
+
+.mxp_wrap input[type=radio],.mxp_wrap input[type=checkbox]{
+    margin: -4px 4px 0 0!important;
+}
+
+.mxp_wrap .form-table label {
+    font-weight: 400;
+}
+
+.mxp_wrap .widefat td,.mxp_wrap .widefat th{
+    vertical-align: middle;
+}
+
+.mxp_wrap .widefat td p{
+    margin: 8px;
+}
+
+#musexpress-toolbar-menu:before{
+    content: "\e900" !important;
+    font-family: "musexpress" !important;
+}
+
+.column-page-type{
+    width: 10%;
+}

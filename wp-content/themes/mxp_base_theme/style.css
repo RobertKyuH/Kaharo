@@ -1,0 +1,47 @@
+﻿/*
+Theme Name: MusexPress Base Theme
+Theme URI: http://www.musexpress.net/
+Author: The MusexPress Team
+Author URI: http://www.musexpress.net/
+Description: MusexPress is the first software to merge Adobe Muse and the Wordpress admin panel into one powerful tool. Enjoy Muse to design unique layouts with absolute design freedom, manage any content from the Wordpress admin panel, very intuitive and easy to use. There are so many features you can easily add to your website: browse the huge collection of the Wordpress plugins to power up your site with stunning tools. Build a sophisticated blog in a few clicks, create a professional e-commerce in almost no time. From now on your customers can seamlessly create, edit, review and publish content themselves.
+Version: 3.0
+License URI: https://www.musegain.com/terms-conditions-of-use
+Text Domain: mxp_base_theme
+
+*/
+
+#wpadminbar{
+    position: fixed!important;
+}
+
+
+select {
+    height: 2.4375rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 1px solid #cacaca;
+    border-radius: 0;
+    background-color: #fefefe;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: normal;
+    color: #0a0a0a;
+    -webkit-background-origin: content-box;
+    background-origin: content-box;
+    background-position: right -1rem center;
+    background-repeat: no-repeat;
+    -webkit-background-size: 9px 6px;
+    background-size: 9px 6px;
+    padding-right: 1.5rem;
+    -webkit-transition: border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+    transition: border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s;
+}
+
+.no_vert_scroll {
+    overflow-y: auto;
+}

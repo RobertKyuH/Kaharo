@@ -1,0 +1,22 @@
+Backup WD
+1.0.6
+Fixed: Bug on dropbox  
+
+1.0.5
+Fixed: Conflict with Google Analytics WD
+
+1.0.4
+Added: Dropbox default API Keys
+Fixed: File including error
+
+1.0.3
+Added: Review link in foother
+
+1.0.2
+Added: Notices for disabled WP Cron and PHP Zip extension
+
+1.0.1
+Fixed: Bug on logs delete and download
+
+1.0.0
+Initial version

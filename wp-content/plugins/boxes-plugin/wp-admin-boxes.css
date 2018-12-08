@@ -1,0 +1,31 @@
+.post-new-php #formatdiv, .post-php #formatdiv{
+    display: none;
+}
+
+.options-reading-php .form-table tr:first-child {
+    display: none;
+}
+
+.options-discussion-php .form-table:nth-of-type(2), .options-discussion-php .title:nth-of-type(1), .options-discussion-php form>p:nth-of-type(1) {
+    display: none;
+}
+
+.post-new-php .metabox-prefs label:nth-of-type(1), .post-new-php .metabox-prefs label:nth-of-type(7) {
+    display: none;
+}
+
+.post-php .metabox-prefs label:nth-of-type(1), .post-php .metabox-prefs label:nth-of-type(7) {
+    display: none;
+}
+
+.post-php #visibility, .post-new-php #visibility{
+    display: none;
+}
+
+.post-php #post-preview, .post-new-php #post-preview{
+    display: none;
+}
+
+.post-type-page #edit-slug-box, .post-type-page #postimagediv, .post-type-page span.view{
+    display: none;
+}
